@@ -31,7 +31,7 @@ function App() {
   return (
      <>
       <h1 className="header">
-        <p>{isVisible?'not in the viewport': 'in the viewport'}</p>
+        <p>{isVisible?'in the viewport': 'not in the viewport'}</p>
       </h1>
       <div className='gap'></div>
         <img  ref={targetRef} src="./images/attraction.jpg" alt="simpsons" />  
